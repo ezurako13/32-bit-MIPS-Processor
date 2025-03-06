@@ -1,0 +1,597 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/goktu/Desktop/1Projects/Organization/hw3/simulation/modelsim
+v_1_bit_8e1_mux
+Z1 !s110 1714107300
+!i10b 1
+!s100 UF5lE77;JoX;H2C6Lhe@Z2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ILgTcSlVoLFzf:ARLIioSE2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702244903
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/_1_bit_8e1_mux.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/_1_bit_8e1_mux.v
+!i122 0
+L0 1 22
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1714107300.000000
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/_1_bit_8e1_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux|C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/_1_bit_8e1_mux.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux
+Z8 tCvgOpt 0
+n@_1_bit_8e1_mux
+vadder
+Z9 !s110 1714107301
+!i10b 1
+!s100 2aG=9XYNLnCeWBS3Fdg8j3
+R2
+IJ>PcC?j8YQ`6J2W4H^kjY3
+R3
+R0
+w1705585543
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/adder.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/others/adder.v
+!i122 14
+L0 1 20
+R4
+r1
+!s85 0
+31
+Z10 !s108 1714107301.000000
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others|C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/adder.v|
+!i113 1
+R6
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others
+R8
+valu
+R9
+!i10b 1
+!s100 iGlC3kel9fT<XQ[og333c1
+R2
+Ij[gDh>Z_Vo^a:Wzc_Tz>M3
+R3
+R0
+w1705583348
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/alu.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/alu.v
+!i122 15
+Z12 L0 1 19
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/alu.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu
+R8
+vAlu1Bit
+R9
+!i10b 1
+!s100 0iHg:N2>[28hg1HMdZ2`L3
+R2
+Iz]_BV^Lgn2CleaJ?n?8iU1
+R3
+R0
+w1702295407
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1Bit.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1Bit.v
+!i122 9
+Z13 L0 1 49
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1Bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1Bit.v|
+!i113 1
+R6
+Z14 !s92 -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA
+R8
+n@alu1@bit
+vAlu1BitMSB
+R9
+!i10b 1
+!s100 kf`iQEC^GJ2]C`Tl;EDI70
+R2
+II>2HK13=aIOg3FfVg[[Uo3
+R3
+R0
+w1702295776
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1BitMSB.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1BitMSB.v
+!i122 8
+L0 1 55
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1BitMSB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1BitMSB.v|
+!i113 1
+R6
+R14
+R8
+n@alu1@bit@m@s@b
+valu_control
+Z15 !s110 1714107302
+!i10b 1
+!s100 E[=<dcE:NC2m8Tfj7zojk2
+R2
+I:Q7WKKXgecRU902iXYCWY3
+R3
+R0
+w1705853992
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/alu_control.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/others/alu_control.v
+!i122 19
+L0 1 40
+R4
+r1
+!s85 0
+31
+Z16 !s108 1714107302.000000
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/alu_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others|C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/alu_control.v|
+!i113 1
+R6
+R11
+R8
+vCLA16bit
+R1
+!i10b 1
+!s100 44nG>Cc1^gzOAT:zOggOk0
+R2
+IJ57ohBRm:C]>H1z6<zJjJ2
+R3
+R0
+w1702295923
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bit.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bit.v
+!i122 5
+R13
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bit.v|
+!i113 1
+R6
+R14
+R8
+n@c@l@a16bit
+vCLA16bitMSB
+R1
+!i10b 1
+!s100 Y5WgkSYD1o>`fRakfNSii0
+R2
+IXAooE;BdOV5QdaE2ia]e10
+R3
+R0
+w1702295939
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bitMSB.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bitMSB.v
+!i122 4
+L0 1 50
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bitMSB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bitMSB.v|
+!i113 1
+R6
+R14
+R8
+n@c@l@a16bit@m@s@b
+vCLA32bitMSB
+R1
+!i10b 1
+!s100 ;W8YcW7Sn>cDoWE`Ed?:]0
+R2
+IglQDWlYTcgWe>:ki4:[;z2
+R3
+R0
+w1702296691
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA32bitMSB.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA32bitMSB.v
+!i122 3
+L0 1 37
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA32bitMSB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA32bitMSB.v|
+!i113 1
+R6
+R14
+R8
+n@c@l@a32bit@m@s@b
+vCLA4bit
+R1
+!i10b 1
+!s100 _j1C6P@R3ooP>fZ[DlJ=S0
+R2
+I:?eJXV7GO_KbbCgNg6]590
+R3
+R0
+w1702295858
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bit.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bit.v
+!i122 7
+L0 1 42
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bit.v|
+!i113 1
+R6
+R14
+R8
+n@c@l@a4bit
+vCLA4bitMSB
+R1
+!i10b 1
+!s100 eX^hm?O1a[3T6Tze9Qc>52
+R2
+I2j=aQeZ9IQ3h3cS]Ij3nV1
+R3
+R0
+w1702295854
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bitMSB.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bitMSB.v
+!i122 6
+L0 1 44
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bitMSB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bitMSB.v|
+!i113 1
+R6
+R14
+R8
+n@c@l@a4bit@m@s@b
+vCLL1_level
+R1
+!i10b 1
+!s100 IK@g3Xm]]Q[<CbD4XSMN93
+R2
+IMRUd58ogk8=7aDUV<71O21
+R3
+R0
+w1702296051
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL1_level.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL1_level.v
+!i122 2
+Z17 L0 1 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL1_level.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL1_level.v|
+!i113 1
+R6
+R14
+R8
+n@c@l@l1_level
+vCLL2_level
+R1
+!i10b 1
+!s100 D`>iRmPZE?2@HdcAg?^YK1
+R2
+I2eSj^kNiPTg1jJMij3zgB2
+R3
+R0
+w1702295960
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL2_level.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL2_level.v
+!i122 1
+R17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL2_level.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA|C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL2_level.v|
+!i113 1
+R6
+R14
+R8
+n@c@l@l2_level
+vcontrol_unit
+R15
+!i10b 1
+!s100 ISNke_>2UYBo4T[X5>oM10
+R2
+I`?1^JaK3zPzVfoJ3;684n0
+R3
+R0
+w1706224980
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/control_unit.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/others/control_unit.v
+!i122 18
+L0 25 66
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others|C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/control_unit.v|
+!i113 1
+R6
+R11
+R8
+vinstruction_block
+R15
+!i10b 1
+!s100 SeH6_Vc[61:X:X4bZVI2Q2
+R2
+IK=kM9cU2eCIZ[A8a8Hh8J2
+R3
+R0
+w1705565425
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/instruction_block.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/instruction_block.v
+!i122 21
+L0 1 17
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/instruction_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory|C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/instruction_block.v|
+!i113 1
+R6
+Z18 !s92 -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory
+R8
+vmemory_block
+R15
+!i10b 1
+!s100 XF>6?HaldBaiZC>=9eQCg0
+R2
+I32DfaW?Q_=DdjbfMe43930
+R3
+R0
+w1706224384
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/memory_block.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/memory_block.v
+!i122 20
+L0 1 65
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/memory_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory|C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/memory_block.v|
+!i113 1
+R6
+R18
+R8
+vmips
+R9
+!i10b 1
+!s100 TmbcaJf==0M3PFU=9d9PM1
+R2
+IiF8k]oAKYlkXfdI3B65;W0
+R3
+R0
+w1706252939
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v
+!i122 10
+L0 1 165
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3|C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3
+R8
+vmux2x1bit1
+R9
+!i10b 1
+!s100 BojSomQGh18KWm2VMZDhH1
+R2
+I0]eO468^WglIl=Kj0bhl30
+R3
+R0
+w1705580938
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit1.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit1.v
+!i122 13
+R12
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux|C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit1.v|
+!i113 1
+R6
+R7
+R8
+vmux2x1bit32
+R9
+!i10b 1
+!s100 8HYQIiCbj]?_GD^EOGDSH2
+R2
+IHaf2`3eEe_=KS5F1d=Czo1
+R3
+R0
+w1702247490
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit32.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit32.v
+!i122 11
+L0 1 116
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux|C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit32.v|
+!i113 1
+R6
+R7
+R8
+vmux2x1bit5
+R9
+!i10b 1
+!s100 egN_Z:GZl5FoKcAWULW0P2
+R2
+IgfeKHPKm:IAV2lf2aNnVO3
+R3
+R0
+w1705581117
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit5.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit5.v
+!i122 12
+L0 1 14
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux|C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit5.v|
+!i113 1
+R6
+R7
+R8
+vregister_block
+R15
+!i10b 1
+!s100 19o_QcDm[3bjT`EEA`0:;1
+R2
+I[]6hZR^cYhla1_gWS^0@J3
+R3
+R0
+w1706222812
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/register_block.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/register_block.v
+!i122 22
+L0 1 68
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/register_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory|C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/register_block.v|
+!i113 1
+R6
+R18
+R8
+vshift_left_2
+R9
+!i10b 1
+!s100 22Jh=BC^IGmX<GeMzGo7b3
+R2
+IL`Lb0PYYgBU;P4[S4SGcR0
+R3
+R0
+w1705598037
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v
+!i122 16
+L0 1 45
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others|C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v|
+!i113 1
+R6
+R11
+R8
+vsign_extend
+R9
+!i10b 1
+!s100 RA>5Oh5Rh88ZzkQ8ijb4Q3
+R2
+I^FmiO]FnFa^gbAj>4_a]c3
+R3
+R0
+w1705851525
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/sign_extend.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/others/sign_extend.v
+!i122 17
+L0 1 43
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/sign_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others|C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/sign_extend.v|
+!i113 1
+R6
+R11
+R8
+vtb_mips
+R15
+!i10b 1
+!s100 XE6NZVEU8k4ZX2`ROd?;12
+R2
+Izdo2NLQGVEoTzb5Sbd7a32
+R3
+R0
+w1706230071
+8C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch/tb_mips.v
+FC:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch/tb_mips.v
+!i122 23
+L0 1 25
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch/tb_mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch|C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch/tb_mips.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch
+R8

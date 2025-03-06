@@ -1,0 +1,15 @@
+					addi $8, $0, 5			// i = 5 (saveToMem loop runs while i > 0)		
+					subi $16, $0 -8			// memory address 8. which means 2nd word (0 indexed)
+saveToMem:			beq $8, $0, 36			// if i == 0, branch to loopExit
+					move $4, $8				// $a0 = i (it will be sent to subroutine)
+					jal 40 					// recieving the calculated value (it will be saved in $v0 by the subroutine and then it will be saved in memory)
+					sw $2, 0($16)			// save the value in memory
+					addi $16, $16, 4		// incrementing the memory by 4 to reach the next word
+					subi $8, $8, 1			// i--
+					j 8						// jump to loop
+saveToMemExit:		bne $16, $0, 48			// if $s0 is not 0, branch to exit (since s0 keeps the memory address and it is a possitive number -at this point-, this branch should be taken)
+saveCalculation:	ori $2, $4, 2049		// calculating the value and saving it in $v0. this is basically bitwise or operation with 2049.
+					jr $31					// return back
+exit:				addi $16, $0, 12		// memory address is set to 12. which means 3rd word (0 indexed)
+					lb $17, 0($16)			// reading the first byte of 3rd word and saving it in $s1 (first byte means the rightmost byte)
+					slt $9, $17, $16		// if the value we just read is smaller than its address, set $t1 to 1. Otherwise, set $t1 to 0.

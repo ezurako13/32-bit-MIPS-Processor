@@ -1,0 +1,1314 @@
+# Reading pref.tcl
+# do mips_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/_1_bit_8e1_mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:16 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/_1_bit_8e1_mux.v 
+# -- Compiling module _1_bit_8e1_mux
+# 
+# Top level modules:
+# 	_1_bit_8e1_mux
+# End time: 07:54:16 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL2_level.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:16 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL2_level.v 
+# -- Compiling module CLL2_level
+# 
+# Top level modules:
+# 	CLL2_level
+# End time: 07:54:16 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL1_level.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:16 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL1_level.v 
+# -- Compiling module CLL1_level
+# 
+# Top level modules:
+# 	CLL1_level
+# End time: 07:54:16 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA32bitMSB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:16 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA32bitMSB.v 
+# -- Compiling module CLA32bitMSB
+# 
+# Top level modules:
+# 	CLA32bitMSB
+# End time: 07:54:16 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bitMSB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:16 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bitMSB.v 
+# -- Compiling module CLA16bitMSB
+# 
+# Top level modules:
+# 	CLA16bitMSB
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bit.v 
+# -- Compiling module CLA16bit
+# 
+# Top level modules:
+# 	CLA16bit
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bitMSB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bitMSB.v 
+# -- Compiling module CLA4bitMSB
+# 
+# Top level modules:
+# 	CLA4bitMSB
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bit.v 
+# -- Compiling module CLA4bit
+# 
+# Top level modules:
+# 	CLA4bit
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1BitMSB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1BitMSB.v 
+# -- Compiling module Alu1BitMSB
+# 
+# Top level modules:
+# 	Alu1BitMSB
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1Bit.v 
+# -- Compiling module Alu1Bit
+# 
+# Top level modules:
+# 	Alu1Bit
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3 {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v 
+# -- Compiling module mips
+# 
+# Top level modules:
+# 	mips
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit32.v 
+# -- Compiling module mux2x1bit32
+# 
+# Top level modules:
+# 	mux2x1bit32
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit5.v 
+# -- Compiling module mux2x1bit5
+# 
+# Top level modules:
+# 	mux2x1bit5
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit1.v 
+# -- Compiling module mux2x1bit1
+# 
+# Top level modules:
+# 	mux2x1bit1
+# End time: 07:54:17 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:17 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:18 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:18 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v 
+# -- Compiling module shift_left_2
+# 
+# Top level modules:
+# 	shift_left_2
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/sign_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:18 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/sign_extend.v 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/control_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:18 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/control_unit.v 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/alu_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:18 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/alu_control.v 
+# -- Compiling module alu_control
+# 
+# Top level modules:
+# 	alu_control
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory {C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/memory_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:18 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory" C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/memory_block.v 
+# -- Compiling module memory_block
+# 
+# Top level modules:
+# 	memory_block
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory {C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/instruction_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:18 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory" C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/instruction_block.v 
+# -- Compiling module instruction_block
+# 
+# Top level modules:
+# 	instruction_block
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory {C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/register_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:18 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory" C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/register_block.v 
+# -- Compiling module register_block
+# 
+# Top level modules:
+# 	register_block
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch {C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch/tb_mips.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:54:18 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch" C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch/tb_mips.v 
+# -- Compiling module tb_mips
+# 
+# Top level modules:
+# 	tb_mips
+# End time: 07:54:18 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_mips
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_mips 
+# Start time: 07:54:18 on Apr 26,2024
+# Loading work.tb_mips
+# Loading work.mips
+# Loading work.instruction_block
+# Loading work.control_unit
+# Loading work.mux2x1bit5
+# Loading work.mux2x1bit1
+# Loading work.register_block
+# Loading work.sign_extend
+# Loading work.alu_control
+# Loading work.mux2x1bit32
+# Loading work.alu
+# Loading work.CLA32bitMSB
+# Loading work.CLA16bit
+# Loading work.CLA4bit
+# Loading work.Alu1Bit
+# Loading work._1_bit_8e1_mux
+# Loading work.CLL1_level
+# Loading work.CLL2_level
+# Loading work.CLA16bitMSB
+# Loading work.CLA4bitMSB
+# Loading work.Alu1BitMSB
+# Loading work.memory_block
+# Loading work.adder
+# Loading work.shift_left_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (28) for port 'shifted_address'. The port definition is at: C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips/mips/shift_left2_jump File: C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v Line: 87
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (26) for port 'address'. The port definition is at: C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips/mips/shift_left2_jump File: C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v Line: 87
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# rs[ x] =          x
+# 
+# 
+# 
+# PC:      0
+# 
+# (reg block write:)
+# rt[ 8] =           5
+# rs[ 0] =          0
+# imm =     5
+# add immediate
+# 
+# 
+# 
+# PC:      4
+# 
+# (reg block write:)
+# rt[16] =           8
+# rs[ 0] =          0
+# imm = 65528
+# subtract immediate
+# 
+# 
+# 
+# PC:      8
+# rs[ 0] =          0
+# branch_decision: 0
+# branch on equal
+# 
+# 
+# 
+# PC:     12
+# 
+# (reg block write:)
+# rt[ 4] =           0
+# rs[ 8] =          5
+# imm =     0
+# move
+# 
+# 
+# 
+# PC:     16
+# 
+# (reg block write:)
+# rt[31] =           6
+# rs[ 0] =          0
+# imm =     6
+# add immediate
+# 
+# 
+# 
+# PC:     20
+# rs[ 0] =          0
+# imm =    10
+# jump
+# 
+# 
+# 
+# PC:     40
+# rs[ 0] =          0
+# branch_decision: 1
+# imm =     2
+# branch on not equal
+# 
+# 
+# 
+# PC:     52
+# 
+# (reg block write:)
+# rt[16] =          12
+# rs[ 0] =          0
+# imm =    12
+# add immediate
+# 
+# 
+# 
+# PC:     56
+# memory[  3:0] =   0
+# 
+# (reg block write:)
+# rt[17] =           0
+# rs[16] =         12
+# imm =     0
+# load byte
+# 
+# 
+# 
+# PC:     60
+# 
+# (reg block write:)
+# rd[16] =           0
+# rs[ 9] =          0
+# rt[17] =          0
+# set on less than
+# 
+# 
+# 
+# PC:     64
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     68
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     72
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     76
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     80
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     84
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     88
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     92
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     96
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    100
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    104
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    108
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    112
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    116
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    120
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    124
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    128
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    132
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    136
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    140
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    144
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    148
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    152
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    156
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    160
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    164
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    168
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    172
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    176
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    180
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+do mips_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/_1_bit_8e1_mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:00 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/_1_bit_8e1_mux.v 
+# -- Compiling module _1_bit_8e1_mux
+# 
+# Top level modules:
+# 	_1_bit_8e1_mux
+# End time: 07:55:00 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL2_level.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:00 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL2_level.v 
+# -- Compiling module CLL2_level
+# 
+# Top level modules:
+# 	CLL2_level
+# End time: 07:55:00 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL1_level.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:00 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLL1_level.v 
+# -- Compiling module CLL1_level
+# 
+# Top level modules:
+# 	CLL1_level
+# End time: 07:55:00 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA32bitMSB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:00 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA32bitMSB.v 
+# -- Compiling module CLA32bitMSB
+# 
+# Top level modules:
+# 	CLA32bitMSB
+# End time: 07:55:00 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bitMSB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:00 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bitMSB.v 
+# -- Compiling module CLA16bitMSB
+# 
+# Top level modules:
+# 	CLA16bitMSB
+# End time: 07:55:00 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:00 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA16bit.v 
+# -- Compiling module CLA16bit
+# 
+# Top level modules:
+# 	CLA16bit
+# End time: 07:55:00 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bitMSB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:00 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bitMSB.v 
+# -- Compiling module CLA4bitMSB
+# 
+# Top level modules:
+# 	CLA4bitMSB
+# End time: 07:55:00 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:00 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/CLA4bit.v 
+# -- Compiling module CLA4bit
+# 
+# Top level modules:
+# 	CLA4bit
+# End time: 07:55:00 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1BitMSB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:00 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1BitMSB.v 
+# -- Compiling module Alu1BitMSB
+# 
+# Top level modules:
+# 	Alu1BitMSB
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/CLA/Alu1Bit.v 
+# -- Compiling module Alu1Bit
+# 
+# Top level modules:
+# 	Alu1Bit
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3 {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v 
+# -- Compiling module mips
+# 
+# Top level modules:
+# 	mips
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit32.v 
+# -- Compiling module mux2x1bit32
+# 
+# Top level modules:
+# 	mux2x1bit32
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit5.v 
+# -- Compiling module mux2x1bit5
+# 
+# Top level modules:
+# 	mux2x1bit5
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux {C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux" C:/Users/goktu/Desktop/1Projects/Organization/hw3/mux/mux2x1bit1.v 
+# -- Compiling module mux2x1bit1
+# 
+# Top level modules:
+# 	mux2x1bit1
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu {C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu" C:/Users/goktu/Desktop/1Projects/Organization/hw3/alu/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v 
+# -- Compiling module shift_left_2
+# 
+# Top level modules:
+# 	shift_left_2
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/sign_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/sign_extend.v 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 07:55:01 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/control_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:01 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/control_unit.v 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 07:55:02 on Apr 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others {C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/alu_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:02 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/others" C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/alu_control.v 
+# -- Compiling module alu_control
+# 
+# Top level modules:
+# 	alu_control
+# End time: 07:55:02 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory {C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/memory_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:02 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory" C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/memory_block.v 
+# -- Compiling module memory_block
+# 
+# Top level modules:
+# 	memory_block
+# End time: 07:55:02 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory {C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/instruction_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:02 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory" C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/instruction_block.v 
+# -- Compiling module instruction_block
+# 
+# Top level modules:
+# 	instruction_block
+# End time: 07:55:02 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory {C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/register_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:02 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory" C:/Users/goktu/Desktop/1Projects/Organization/hw3/memory/register_block.v 
+# -- Compiling module register_block
+# 
+# Top level modules:
+# 	register_block
+# End time: 07:55:02 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch {C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch/tb_mips.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:02 on Apr 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch" C:/Users/goktu/Desktop/1Projects/Organization/hw3/tests_banch/tb_mips.v 
+# -- Compiling module tb_mips
+# 
+# Top level modules:
+# 	tb_mips
+# End time: 07:55:02 on Apr 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_mips
+# End time: 07:55:04 on Apr 26,2024, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_mips 
+# Start time: 07:55:05 on Apr 26,2024
+# Loading work.tb_mips
+# Loading work.mips
+# Loading work.instruction_block
+# Loading work.control_unit
+# Loading work.mux2x1bit5
+# Loading work.mux2x1bit1
+# Loading work.register_block
+# Loading work.sign_extend
+# Loading work.alu_control
+# Loading work.mux2x1bit32
+# Loading work.alu
+# Loading work.CLA32bitMSB
+# Loading work.CLA16bit
+# Loading work.CLA4bit
+# Loading work.Alu1Bit
+# Loading work._1_bit_8e1_mux
+# Loading work.CLL1_level
+# Loading work.CLL2_level
+# Loading work.CLA16bitMSB
+# Loading work.CLA4bitMSB
+# Loading work.Alu1BitMSB
+# Loading work.memory_block
+# Loading work.adder
+# Loading work.shift_left_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (28) for port 'shifted_address'. The port definition is at: C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips/mips/shift_left2_jump File: C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v Line: 87
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (26) for port 'address'. The port definition is at: C:/Users/goktu/Desktop/1Projects/Organization/hw3/others/shift_left_2.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips/mips/shift_left2_jump File: C:/Users/goktu/Desktop/1Projects/Organization/hw3/mips.v Line: 87
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# rs[ x] =          x
+# 
+# 
+# 
+# PC:      0
+# 
+# (reg block write:)
+# rt[ 8] =           5
+# rs[ 0] =          0
+# imm =     5
+# add immediate
+# 
+# 
+# 
+# PC:      4
+# 
+# (reg block write:)
+# rt[16] =           8
+# rs[ 0] =          0
+# imm = 65528
+# subtract immediate
+# 
+# 
+# 
+# PC:      8
+# rs[ 0] =          0
+# branch_decision: 0
+# branch on equal
+# 
+# 
+# 
+# PC:     12
+# 
+# (reg block write:)
+# rt[ 4] =           0
+# rs[ 8] =          5
+# imm =     0
+# move
+# 
+# 
+# 
+# PC:     16
+# 
+# (reg block write:)
+# rt[31] =           6
+# rs[ 0] =          0
+# imm =     6
+# add immediate
+# 
+# 
+# 
+# PC:     20
+# rs[ 0] =          0
+# imm =    10
+# jump
+# 
+# 
+# 
+# PC:     40
+# rs[ 0] =          0
+# branch_decision: 1
+# imm =     2
+# branch on not equal
+# 
+# 
+# 
+# PC:     52
+# 
+# (reg block write:)
+# rt[16] =          12
+# rs[ 0] =          0
+# imm =    12
+# add immediate
+# 
+# 
+# 
+# PC:     56
+# memory[  3:0] =   0
+# 
+# (reg block write:)
+# rt[17] =           0
+# rs[16] =         12
+# imm =     0
+# load byte
+# 
+# 
+# 
+# PC:     60
+# 
+# (reg block write:)
+# rd[16] =           0
+# rs[ 9] =          0
+# rt[17] =          0
+# set on less than
+# 
+# 
+# 
+# PC:     64
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     68
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     72
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     76
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     80
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     84
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     88
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     92
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:     96
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    100
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    104
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    108
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    112
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    116
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    120
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    124
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    128
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    132
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    136
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    140
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    144
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    148
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    152
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    156
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    160
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    164
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    168
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    172
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    176
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# 
+# 
+# 
+# PC:    180
+# 
+# (reg block write:)
+# rd[ 0] =           0
+# rs[ 0] =          0
+# rt[ 0] =          0
+# End time: 08:00:18 on Apr 26,2024, Elapsed time: 0:05:13
+# Errors: 0, Warnings: 2

@@ -1,0 +1,39 @@
+# Current time Thu Jan 18 18:38:36 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 64419e6f. Traceback:
+# 0    0x64419e6f: 'Tcl_GetString + 0xf'
+# 1    0x64401f5a: 'TclListObjSetElement + 0x31a'
+# 2    0x64373a49: 'TclNRRunCallbacks + 0x49'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Fri Jan 26 00:58:25 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 651f0f9f. Traceback:
+# 0    0x651f0f9f: 'TkWinGetDrawableDC + 0xf'
+# 1    0x651f1cb0: 'XCopyArea + 0x20'
+# 2    0x64a6c6d9: 'Nlview_Init + 0x4579'
+# 3    0x7798bf8e: 'RtlAllocateHeap + 0x3e'
+# 4    0x64a7265c: 'Nlview_Init + 0xa4fc'
+# 5    0x648f3e76: '<unknown (@0x648f3e76)>'
+# 6    0x64900624: '<unknown (@0x64900624)>'
+# 7    0x649039fa: 'Nlview_DirectAPI + 0x29ea'
+# 8    0x648f9a94: '<unknown (@0x648f9a94)>'
+# 9    0x64a6a4ec: 'Nlview_Init + 0x238c'
+# 10   0x6524ec2d: 'Tk_HandleEvent + 0x20d'
+# 11   0x109ef410: '<unknown (@0x109ef410)>'
+StackWalk failed 0
+# End of Stack Trace
+

@@ -1,0 +1,1 @@
+Instructions like add $1 $1 $1 is unsupported. It causes infite loops because It writes register it reads.
